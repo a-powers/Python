@@ -26,4 +26,4 @@ def even_or_odd(a):
     if a % 2 == 0:
         return("even")
     else:
-        return("odd")
+        return("odds")
