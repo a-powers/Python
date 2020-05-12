@@ -12,8 +12,8 @@
 
 def count_down_from(number):
     if number <= 0:    # lines 14 and 15 are called base case; makes the recursion stop
-        return
-    # you may add an else: here but it's not needed
+        return    # you may add an else: here but it's not needed, just a return
+    
     print(number)
     count_down_from(number - 1)  #this is recusion
 
