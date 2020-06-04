@@ -1,5 +1,5 @@
 ingredient1 = "Lasagna noodles"
-ingredient2 = "Tomatos sauce"
+ingredient2 = "Tomato sauce"
 
 if ingredient1 == "Lasagna noodles":
     if ingredient2 == "Tomato sauce":

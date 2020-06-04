@@ -8,7 +8,7 @@
 #         last_index -= 1
     
 #     return reversed_string
-# print(reverse("straw"))
+# print(reverse("straws"))
 
 
 
