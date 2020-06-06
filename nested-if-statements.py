@@ -22,18 +22,18 @@ else:
 
 # # Coding Exercise 12
 
-# def divisible_by_three_and_four(a):
-#     if a % 3 == 0 and a % 4 == 0:
-#         return True
-#     else:
-#         return False
-# print(divisible_by_three_and_four(12))
+def divisible_by_three_and_four(a):
+    if a % 3 == 0 and a % 4 == 0:
+        return True
+    else:
+        return False
+print(divisible_by_three_and_four(12))
 
 
 
-# def string_theory(a:str):
-#     if (len(a) > 3) and a[0] == "S":
-#         return True
-#     else:
-#         return False
-# print(string_theory("Story"))
+def string_theory(a:str):
+    if (len(a) > 3) and a[0] == "S":
+        print(True)
+    else:
+        print(False)
+string_theory("Story")

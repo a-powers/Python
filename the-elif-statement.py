@@ -21,6 +21,8 @@ def calculator(operation, a, b):
         return a * b
     elif operation == "divide":
         return a / b
+    elif operation == "power":
+        return a**b
     else:
         return "I don't know what you want me to do!"
 
@@ -28,7 +30,7 @@ print(calculator("add", 3, 4))
 print(calculator("subtract", 3, 4))
 print(calculator("multiply", 3, 4))
 print(calculator("divide", 3, 4))
-print(calculator("mathify", 3, 4))
+print(calculator("power", 3, 4))
 
 
 # #Coding Exercise 10: if statements
