@@ -27,14 +27,3 @@ print(reverse("straw"))
 # w + a reverse(str)
 # w + a + r reverse(st)
 # w + a + r + t reverse(s)
-
-
-# Coding Exercise 13: Recursion
-def factorial(number):
-    if number == 1:
-        return number
-    
-    else:
-        return (number) * factorial(number - 1)
-
-print(factorial(5))
