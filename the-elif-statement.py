@@ -31,5 +31,3 @@ print(calculator("subtract", 3, 4))
 print(calculator("multiply", 3, 4))
 print(calculator("divide", 3, 4))
 print(calculator("power", 3, 4))
-
-

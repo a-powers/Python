@@ -13,13 +13,13 @@
 
 
 
-def reverse(str):
-    if len(str) <=1:        #starting base case
-        return str
+# def reverse(str):
+#     if len(str) <=1:        #starting base case
+#         return str
 
-    return str[-1] + reverse(str[:-1])
+#     return str[-1] + reverse(str[:-1])
 
-print(reverse("straw"))
+# print(reverse("straw"))
 
 
 # straw
@@ -27,3 +27,5 @@ print(reverse("straw"))
 # w + a reverse(str)
 # w + a + r reverse(st)
 # w + a + r + t reverse(s)
+
+
