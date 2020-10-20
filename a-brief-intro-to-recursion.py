@@ -20,16 +20,18 @@
 # count_down_from(1)
 
 
-# def factorial(element):
-#     if element == 1:
-#         return element
+def factorial(element):
+    if element == 1:
+        return element
 
-#     return element * factorial(element - 1)
-# print(factorial(5))
+    return element * factorial(element - 1)
+print(factorial(5))
 
-def elements(ints):
-    if ints > 50:
+
+
+def negelement(ints):
+    if ints == 5:
         return ints
-
-    return elements(ints + 1)
-print(elements(48))
+    
+    return ints - negelement(ints -1)
+print(negelement(10))
